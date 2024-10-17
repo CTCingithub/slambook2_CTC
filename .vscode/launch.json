@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/ctc/GitProjects/slambook2_CTC/Chapter02",
-      "program": "/home/ctc/GitProjects/slambook2_CTC/Chapter02/build/Debug/outDebug",
+      "cwd": "/home/zhangshu/GitProjects/slambook2_CTC/Chapter02/03_library",
+      "program": "/home/zhangshu/GitProjects/slambook2_CTC/Chapter02/03_library/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
