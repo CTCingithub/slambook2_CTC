@@ -4,10 +4,12 @@ project( PlotTrajectory )
 set(CMAKE_BUILD_TYPE Debug)
 
 find_package(Pangolin REQUIRED)
-find_package(Eigen3 3.3 REQUIRED NO_MODULE)
+find_package(Eigen3 REQUIRED)
 
 # 生成可执行文件路径
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+# 生成库文件路径
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 include_directories(
@@ -16,9 +18,17 @@ include_directories(
     "/usr/include/eigen3"
 )
 
-file(GLOB SRC_LIST ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
-link_directories(${PROJECT_SOURCE_DIR}/lib)
+link_directories(${Pangolin_LIBRARY_DIRS})
 
-add_library(PlotTraj SHARED SRC_LIST)
-add_subdirectory(${PROJECT_SOURCE_DIR}/src)
+add_executable(plotTrajectory src/plotTrajectory.cpp)
+target_link_libraries(plotTrajectory
+    ${Pangolin_LIBRARIES}
+    # PlotTraj
+)
+
+# add_library(PlotTraj SHARED src/Visualization.cpp)
+add_library(PlotTraj STATIC src/Visualization.cpp)
+target_link_libraries(PlotTraj
+    ${Pangolin_LIBRARIES}
+)

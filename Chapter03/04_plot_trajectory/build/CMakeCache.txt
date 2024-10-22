@@ -260,6 +260,9 @@ OPENGL_xmesa_INCLUDE_DIR:PATH=OPENGL_xmesa_INCLUDE_DIR-NOTFOUND
 //The directory containing a CMake configuration file for Pangolin.
 Pangolin_DIR:PATH=/usr/local/lib/cmake/Pangolin
 
+//Dependencies for the target
+PlotTraj_LIB_DEPENDS:STATIC=general;pango_core;general;pango_display;general;pango_geometry;general;pango_glgeometry;general;pango_image;general;pango_opengl;general;pango_packetstream;general;pango_plot;general;pango_python;general;pango_scene;general;pango_tools;general;pango_vars;general;pango_video;general;pango_windowing;general;tinyobj;
+
 //Value Computed by CMake
 PlotTrajectory_BINARY_DIR:STATIC=/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build
 
@@ -382,7 +385,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

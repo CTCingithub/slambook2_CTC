@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/lib/libPlotTraj.a CMakeFiles/PlotTraj.dir/src/Visualization.cpp.o
+/usr/bin/ranlib /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/lib/libPlotTraj.a
