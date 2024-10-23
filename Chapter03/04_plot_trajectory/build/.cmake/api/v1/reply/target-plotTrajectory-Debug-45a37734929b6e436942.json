@@ -35,13 +35,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 25,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 27,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -143,10 +143,6 @@
 				{
 					"backtrace" : 13,
 					"path" : "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/include"
-				},
-				{
-					"backtrace" : 13,
-					"path" : "/usr/include/eigen3"
 				},
 				{
 					"backtrace" : 2,
