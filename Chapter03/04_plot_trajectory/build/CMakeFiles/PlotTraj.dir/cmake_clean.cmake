@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/lib/libPlotTraj.a"
   "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/lib/libPlotTraj.pdb"
+  "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/lib/libPlotTraj.so"
   "CMakeFiles/PlotTraj.dir/src/Visualization.cpp.o"
   "CMakeFiles/PlotTraj.dir/src/Visualization.cpp.o.d"
 )

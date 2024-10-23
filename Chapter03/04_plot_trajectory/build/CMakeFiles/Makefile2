@@ -80,7 +80,7 @@ clean: CMakeFiles/PlotTraj.dir/clean
 # Target rules for target CMakeFiles/plotTrajectory.dir
 
 # All Build rule for target.
-CMakeFiles/plotTrajectory.dir/all:
+CMakeFiles/plotTrajectory.dir/all: CMakeFiles/PlotTraj.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plotTrajectory.dir/build.make CMakeFiles/plotTrajectory.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plotTrajectory.dir/build.make CMakeFiles/plotTrajectory.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build/CMakeFiles --progress-num=3,4 "Built target plotTrajectory"
@@ -88,7 +88,7 @@ CMakeFiles/plotTrajectory.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/plotTrajectory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plotTrajectory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build/CMakeFiles 0
 .PHONY : CMakeFiles/plotTrajectory.dir/rule

@@ -1,5 +1,6 @@
-cmake_minimum_required( VERSION 2.8 )
-project( PlotTrajectory )
+cmake_minimum_required(VERSION 3.5)
+cmake_policy(VERSION 3.5)
+project(PlotTrajectory)
 
 set(CMAKE_BUILD_TYPE Debug)
 
@@ -21,14 +22,14 @@ include_directories(
 
 link_directories(${Pangolin_LIBRARY_DIRS})
 
-add_executable(plotTrajectory src/plotTrajectory.cpp)
+add_executable(plotTrajectory
+    src/plotTrajectory.cpp)
 target_link_libraries(plotTrajectory
     ${Pangolin_LIBRARIES}
-    # PlotTraj
+    PlotTraj
 )
 
-# add_library(PlotTraj SHARED src/Visualization.cpp)
-add_library(PlotTraj STATIC src/Visualization.cpp)
+add_library(PlotTraj SHARED src/Visualization.cpp)
 target_link_libraries(PlotTraj
     ${Pangolin_LIBRARIES}
 )

@@ -1,7 +1,5 @@
 #include <pangolin/pangolin.h>
-#include <vector>
 #include <Eigen/Core>
-#include <unistd.h>
 #include "libVisualization.h"
 
 std::string trajectory_data__file = "../Data/trajectory.txt";

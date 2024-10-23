@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build",
+  "command": "/usr/bin/c++ -DHAVE_EIGEN -DHAVE_EPOXY -DHAVE_PYTHON -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -DPlotTraj_EXPORTS -D_LINUX_ -I/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/include -I/usr/include/eigen3 -isystem /usr/local/include/eigen3 -g -fPIC -o CMakeFiles/PlotTraj.dir/src/Visualization.cpp.o -c /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/src/Visualization.cpp",
+  "file": "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/src/Visualization.cpp",
+  "output": "CMakeFiles/PlotTraj.dir/src/Visualization.cpp.o"
+},
+{
+  "directory": "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build",
+  "command": "/usr/bin/c++ -DHAVE_EIGEN -DHAVE_EPOXY -DHAVE_PYTHON -DPANGO_DEFAULT_WIN_URI=\\\"wayland\\\" -D_LINUX_ -I/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/include -I/usr/include/eigen3 -isystem /usr/local/include/eigen3 -g -o CMakeFiles/plotTrajectory.dir/src/plotTrajectory.cpp.o -c /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/src/plotTrajectory.cpp",
+  "file": "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/src/plotTrajectory.cpp",
+  "output": "CMakeFiles/plotTrajectory.dir/src/plotTrajectory.cpp.o"
+}
+]

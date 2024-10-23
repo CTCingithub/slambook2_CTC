@@ -92,24 +92,25 @@ plotTrajectory_EXTERNAL_OBJECTS =
 
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: CMakeFiles/plotTrajectory.dir/src/plotTrajectory.cpp.o
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: CMakeFiles/plotTrajectory.dir/build.make
+/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/lib/libPlotTraj.so
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_glgeometry.so.0.9.2
+/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_geometry.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_python.so.0.9.2
+/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_plot.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_scene.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_tools.so.0.9.2
-/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_video.so.0.9.2
-/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_geometry.so.0.9.2
-/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libtinyobj.so.0.9.2
-/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_plot.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_display.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_vars.so.0.9.2
+/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_video.so.0.9.2
+/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_packetstream.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_windowing.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_opengl.so.0.9.2
+/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_image.so.0.9.2
+/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_core.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/lib/x86_64-linux-gnu/libEGL.so
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/lib/x86_64-linux-gnu/libepoxy.so
-/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_image.so.0.9.2
-/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_packetstream.so.0.9.2
-/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libpango_core.so.0.9.2
+/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: /usr/local/lib/libtinyobj.so.0.9.2
 /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory: CMakeFiles/plotTrajectory.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/bin/plotTrajectory"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plotTrajectory.dir/link.txt --verbose=$(VERBOSE)

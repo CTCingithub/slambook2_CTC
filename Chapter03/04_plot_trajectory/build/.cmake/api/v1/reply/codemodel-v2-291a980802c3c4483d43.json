@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PlotTrajectory",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PlotTraj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PlotTraj-Debug-f3a210b966530b3cfd50.json",
+					"name" : "PlotTraj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "plotTrajectory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-plotTrajectory-Debug-0f86735f4d95d7fbd063.json",
+					"name" : "plotTrajectory",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/build",
+		"source" : "/home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

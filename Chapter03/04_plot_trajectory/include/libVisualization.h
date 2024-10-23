@@ -2,7 +2,6 @@
 #define VISUALIZATION_H__
 
 #include <pangolin/pangolin.h>
-#include <vector>
 #include <Eigen/Core>
 #include <Eigen/Geometry>
 

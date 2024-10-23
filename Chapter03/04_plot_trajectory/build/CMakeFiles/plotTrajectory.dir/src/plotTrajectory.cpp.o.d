@@ -430,11 +430,5 @@ CMakeFiles/plotTrajectory.dir/src/plotTrajectory.cpp.o: \
  /usr/local/include/pangolin/video/stream_info.h \
  /usr/local/include/pangolin/video/video_output_interface.h \
  /usr/local/include/pangolin/video/video_input.h \
- /usr/local/include/pangolin/video/video_output.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/local/include/pangolin/video/video_output.h \
  /home/ctc/GitProjects/slambook2_CTC/Chapter03/04_plot_trajectory/include/libVisualization.h
