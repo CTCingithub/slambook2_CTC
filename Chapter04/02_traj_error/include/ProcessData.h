@@ -3,11 +3,11 @@
 
 #include <iostream>
 #include <fstream>
-#include <sophus/se3.hpp>
 #include <Eigen/Core>
+#include <Eigen/Geometry>
+#include "sophus/se3.hpp"
 #include "TrajType.h"
-using namespace std;
 
-TrajectoryType ReadTrajectory(const string &file);
+TrajectoryType ReadTrajectory(const std::string &file);
 
 #endif

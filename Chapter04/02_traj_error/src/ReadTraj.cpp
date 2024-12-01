@@ -1,7 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include <sophus/se3.hpp>
 #include <Eigen/Core>
+#include <Eigen/Geometry>
+#include "sophus/se3.hpp"
 #include "TrajType.h"
 
 TrajectoryType ReadTrajectory(const std::string &file)

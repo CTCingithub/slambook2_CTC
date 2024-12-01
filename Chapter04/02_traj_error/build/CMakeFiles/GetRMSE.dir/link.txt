@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libGetRMSE.so -o /home/ctc/GitProjects/slambook2_CTC/Chapter04/02_traj_error/lib/libGetRMSE.so CMakeFiles/GetRMSE.dir/src/ComputeError.cpp.o

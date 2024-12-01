@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libReadData.so -o /home/ctc/GitProjects/slambook2_CTC/Chapter04/02_traj_error/lib/libReadData.so CMakeFiles/ReadData.dir/src/ReadTraj.cpp.o
