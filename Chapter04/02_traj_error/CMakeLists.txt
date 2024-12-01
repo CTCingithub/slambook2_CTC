@@ -1,6 +1,12 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
+
+# Avoid std::optional not declared error
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 project(TrjectorError)
 
+set(CMAKE_BUILD_TYPE Debug)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
@@ -22,22 +28,25 @@ if(USE_UBUNTU_20)
     set(FMT_LIBRARIES fmt::fmt)
 endif()
 
-add_executable(traj_error src/TrajectoryError.cpp)
-target_link_libraries(traj_error
-    Sophus::Sophus
-    ${Pangolin_LIBRARIES}
+# Compiile .so files
+add_library(ReadData SHARED src/ReadTraj.cpp)
+target_link_libraries(ReadData
+    ${EIGEN3_LIBRARIES}
+    ${Sophus_LIBRARIES}
     ${FMT_LIBRARIES}
 )
-
-add_library(ReadData SHARED src/ReadTraj.cpp)
-link_directories(
-    /usr/local/include
-    /usr/local/lib
-)
-target_link_libraries(ReadData
-    # Sophus::Sophus
-    # ${FMT_LIBRARIES}
+add_library(GetRMSE SHARED src/ComputeError.cpp)
+target_link_libraries(GetRMSE
     ${Sophus_LIBRARIES}
-    ${EIGEN3_LIBRARIES}
-    ${PROJECT_SOURCE_DIR}/include
+)
+add_library(Visualization SHARED src/PlotTraj.cpp)
+target_link_libraries(Visualization
+    ${Pangolin_LIBRARIES}
+)
+
+add_executable(traj_error main.cpp)
+target_link_libraries(traj_error
+    ReadData
+    GetRMSE
+    Visualization
 )
