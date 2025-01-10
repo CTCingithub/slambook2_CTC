@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libgaussnewton.so -o /home/ctc/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/lib/libgaussnewton.so CMakeFiles/gaussnewton.dir/src/IterateGN.cpp.o  /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.6.2

@@ -1,0 +1,15 @@
+NUM_Data: 100
+
+Real:
+  a: 1.0
+  b: 2.0
+  c: 1.0
+
+Estimated:
+  a: 2.0
+  b: -1
+  c: 5.0
+
+w_sigma: 0.5
+
+iterations: 100
