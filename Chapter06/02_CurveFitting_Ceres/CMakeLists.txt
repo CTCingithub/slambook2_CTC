@@ -22,3 +22,17 @@ include_directories(
     ${OpenCV_INCLUDE_DIRS}
     ${CERES_INCLUDE_DIRS}
 )
+
+# Build shared library
+add_library(gendata SHARED src/GetData.cpp)
+target_link_libraries(gendata
+    yaml-cpp
+    ${OpenCV_LIBS}
+)
+
+# Build main executable file
+add_executable(CeresExample main.cpp)
+target_link_libraries(CeresExample
+    gendata
+    ceres
+)
