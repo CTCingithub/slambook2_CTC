@@ -4,6 +4,8 @@ echo "Building and running Gauss-Newton iteration example..."
 
 if [ -d "build" ]; then
     echo "Found existing build directory..."
+    rm -rf build/
+    mkdir build
 else
     echo "No existing build directory found, creating one..."
     mkdir build

@@ -11,7 +11,8 @@ project(Gauss_Newton_Iteration)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
-find_package(Eigen3 REQUIRED)
+include_directories("/usr/include/eigen3")
+find_package(Eigen3 REQUIRED PATHS)
 find_package(yaml-cpp REQUIRED)
 find_package(OpenCV REQUIRED)
 include_directories(

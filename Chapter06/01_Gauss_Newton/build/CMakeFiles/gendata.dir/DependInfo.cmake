@@ -1,22 +1,28 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/src/GetData.cpp" "/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/gendata.dir/src/GetData.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "YAML_CPP_STATIC_DEFINE"
+  "gendata_EXPORTS"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ctc/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/src/GetData.cpp" "CMakeFiles/gendata.dir/src/GetData.cpp.o" "gcc" "CMakeFiles/gendata.dir/src/GetData.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/eigen3"
+  "../include"
+  "/usr/include/opencv4"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

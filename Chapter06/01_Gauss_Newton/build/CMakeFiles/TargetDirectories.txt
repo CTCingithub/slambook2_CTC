@@ -1,5 +1,5 @@
-/home/ctc/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/gendata.dir
-/home/ctc/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/gaussnewton.dir
-/home/ctc/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/GaussNewtonExample.dir
-/home/ctc/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/edit_cache.dir
-/home/ctc/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/rebuild_cache.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/rebuild_cache.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/edit_cache.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/GaussNewtonExample.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/gaussnewton.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/01_Gauss_Newton/build/CMakeFiles/gendata.dir
