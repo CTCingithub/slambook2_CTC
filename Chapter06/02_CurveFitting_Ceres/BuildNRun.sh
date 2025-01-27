@@ -5,10 +5,11 @@ echo "Building and running Ceres Optimization example..."
 
 if [ -d "build" ]; then
     echo "Found existing build directory..."
+    rm -rf build/
 else
     echo "No existing build directory found, creating one..."
-    mkdir build
 fi
+mkdir build
 
 rm -rf bin/
 cd build/

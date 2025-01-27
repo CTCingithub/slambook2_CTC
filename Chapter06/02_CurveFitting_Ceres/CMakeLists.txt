@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 3.5)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE Debug)
+set(USE_CUDA OFF)
+set(CUDAToolkit_DIR "")
 
 # Set project name before using ${PROJECT_SOURCE_DIR},
 # otherwise it will direct to /usr/bin
@@ -11,6 +13,7 @@ project(CurveFitting_Ceres)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
+include_directories("/usr/include/eigen3")
 find_package(Eigen3 REQUIRED)
 find_package(yaml-cpp REQUIRED)
 find_package(OpenCV REQUIRED)
