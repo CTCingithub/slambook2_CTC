@@ -16,8 +16,3 @@ include_directories(
 )
 
 # Build shared library
-
-# Build executable files
-add_executable(01_GetMax_NoHeader examples/01_GetMax_NoHeader.cpp)
-add_executable(02_GetMax_Header examples/02_GetMax_Header.cpp)
-add_executable(03_GetMax_auto examples/03_GetMax_auto.cpp)

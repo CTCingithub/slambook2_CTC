@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/01_Templates/01_Function_Templates/examples/01_GetMax_NoHeader.cpp
+iostream
+-
+

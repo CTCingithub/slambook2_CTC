@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/03_GetMax_auto.h
+
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/01_Templates/01_Function_Templates/examples/03_GetMax_auto.cpp
+iostream
+-
+typeinfo
+-
+03_GetMax_auto.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/01_Templates/01_Function_Templates/examples/03_GetMax_auto.h
+
