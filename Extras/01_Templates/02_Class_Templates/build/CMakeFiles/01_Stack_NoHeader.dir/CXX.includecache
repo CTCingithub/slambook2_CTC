@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/01_Templates/02_Class_Templates/examples/01_Stack_NoHeader.cpp
+vector
+-
+cassert
+-
+iostream
+-
+string
+-
+

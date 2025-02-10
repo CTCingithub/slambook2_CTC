@@ -16,3 +16,6 @@ include_directories(
 )
 
 # Build shared library
+
+# Build executable files
+add_executable(01_Stack_NoHeader examples/01_Stack_NoHeader.cpp)
