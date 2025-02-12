@@ -1,40 +1,40 @@
 Determining if the function sgemm_ exists failed with the following output:
 Change Dir: /home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cf165/fast && /usr/bin/make -f CMakeFiles/cmTC_cf165.dir/build.make CMakeFiles/cmTC_cf165.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d512a/fast && /usr/bin/make -f CMakeFiles/cmTC_d512a.dir/build.make CMakeFiles/cmTC_d512a.dir/build
 make[1]: Entering directory '/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cf165.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_cf165.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cf165
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf165.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_cf165.dir/CheckFunctionExists.c.o  -o cmTC_cf165 
-/usr/bin/ld: CMakeFiles/cmTC_cf165.dir/CheckFunctionExists.c.o: in function `main':
+Building C object CMakeFiles/cmTC_d512a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_   -o CMakeFiles/cmTC_d512a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d512a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d512a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_    CMakeFiles/cmTC_d512a.dir/CheckFunctionExists.c.o  -o cmTC_d512a 
+/usr/bin/ld: CMakeFiles/cmTC_d512a.dir/CheckFunctionExists.c.o: in function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_cf165.dir/build.make:87: cmTC_cf165] Error 1
+make[1]: *** [CMakeFiles/cmTC_d512a.dir/build.make:87: cmTC_d512a] Error 1
 make[1]: Leaving directory '/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_cf165/fast] Error 2
+make: *** [Makefile:121: cmTC_d512a/fast] Error 2
 
 
 
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_60ae0/fast && /usr/bin/make -f CMakeFiles/cmTC_60ae0.dir/build.make CMakeFiles/cmTC_60ae0.dir/build
+Run Build Command(s):/usr/bin/make cmTC_0edfb/fast && /usr/bin/make -f CMakeFiles/cmTC_0edfb.dir/build.make CMakeFiles/cmTC_0edfb.dir/build
 make[1]: Entering directory '/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_60ae0.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_60ae0.dir/src.c.o   -c /home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_60ae0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ae0.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_60ae0.dir/src.c.o  -o cmTC_60ae0 
-/usr/bin/ld: CMakeFiles/cmTC_60ae0.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_0edfb.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_0edfb.dir/src.c.o   -c /home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0edfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0edfb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_0edfb.dir/src.c.o  -o cmTC_0edfb 
+/usr/bin/ld: CMakeFiles/cmTC_0edfb.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_60ae0.dir/build.make:87: cmTC_60ae0] Error 1
+make[1]: *** [CMakeFiles/cmTC_0edfb.dir/build.make:87: cmTC_0edfb] Error 1
 make[1]: Leaving directory '/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_60ae0/fast] Error 2
+make: *** [Makefile:121: cmTC_0edfb/fast] Error 2
 
 
 Source file was:
@@ -60,37 +60,37 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_9ec31/fast && /usr/bin/make -f CMakeFiles/cmTC_9ec31.dir/build.make CMakeFiles/cmTC_9ec31.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c9ddd/fast && /usr/bin/make -f CMakeFiles/cmTC_c9ddd.dir/build.make CMakeFiles/cmTC_c9ddd.dir/build
 make[1]: Entering directory '/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9ec31.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9ec31.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_9ec31
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ec31.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_9ec31.dir/CheckFunctionExists.c.o  -o cmTC_9ec31  -lpthreads 
+Building C object CMakeFiles/cmTC_c9ddd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c9ddd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c9ddd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9ddd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c9ddd.dir/CheckFunctionExists.c.o  -o cmTC_c9ddd  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_9ec31.dir/build.make:87: cmTC_9ec31] Error 1
+make[1]: *** [CMakeFiles/cmTC_c9ddd.dir/build.make:87: cmTC_c9ddd] Error 1
 make[1]: Leaving directory '/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_9ec31/fast] Error 2
+make: *** [Makefile:121: cmTC_c9ddd/fast] Error 2
 
 
 
 Determining if the function cheev_ exists failed with the following output:
 Change Dir: /home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_8d13b/fast && /usr/bin/make -f CMakeFiles/cmTC_8d13b.dir/build.make CMakeFiles/cmTC_8d13b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_4c083/fast && /usr/bin/make -f CMakeFiles/cmTC_4c083.dir/build.make CMakeFiles/cmTC_4c083.dir/build
 make[1]: Entering directory '/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8d13b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_8d13b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_8d13b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d13b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTC_8d13b.dir/CheckFunctionExists.c.o  -o cmTC_8d13b  /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
-/usr/bin/ld: CMakeFiles/cmTC_8d13b.dir/CheckFunctionExists.c.o: in function `main':
+Building C object CMakeFiles/cmTC_4c083.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_   -o CMakeFiles/cmTC_4c083.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c083
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c083.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_    CMakeFiles/cmTC_4c083.dir/CheckFunctionExists.c.o  -o cmTC_4c083  /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+/usr/bin/ld: CMakeFiles/cmTC_4c083.dir/CheckFunctionExists.c.o: in function `main':
 CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_8d13b.dir/build.make:89: cmTC_8d13b] Error 1
+make[1]: *** [CMakeFiles/cmTC_4c083.dir/build.make:89: cmTC_4c083] Error 1
 make[1]: Leaving directory '/home/zhangshu/GitProjects/slambook2_CTC/Chapter06/02_CurveFitting_Ceres/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_8d13b/fast] Error 2
+make: *** [Makefile:121: cmTC_4c083/fast] Error 2
 
 
 
