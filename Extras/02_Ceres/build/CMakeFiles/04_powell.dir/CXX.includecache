@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/04_powell.h
+
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/04_powell.cpp
+iostream
+-
+string
+-
+absl/flags/flag.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/absl/flags/flag.h
+absl/flags/parse.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/absl/flags/parse.h
+absl/log/initialize.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/absl/log/initialize.h
+absl/log/log.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/absl/log/log.h
+ceres/ceres.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/ceres/ceres.h
+04_powell.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/04_powell.h
+

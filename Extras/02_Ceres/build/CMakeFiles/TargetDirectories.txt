@@ -1,0 +1,8 @@
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/build/CMakeFiles/edit_cache.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/build/CMakeFiles/rebuild_cache.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/build/CMakeFiles/06_robust_curve_fitting.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/build/CMakeFiles/05_curve_fitting.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/build/CMakeFiles/04_powell.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/build/CMakeFiles/03_analytic_derivative.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/build/CMakeFiles/02_numeric_derivative.dir
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/build/CMakeFiles/01_hello_world.dir

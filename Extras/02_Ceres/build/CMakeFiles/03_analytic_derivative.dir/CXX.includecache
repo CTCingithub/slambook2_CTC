@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/03_analytic_derivative.h
+ceres/ceres.h
+-
+
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/03_analytic_derivative.cpp
+iostream
+-
+ceres/ceres.h
+-
+03_analytic_derivative.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/03_analytic_derivative.h
+

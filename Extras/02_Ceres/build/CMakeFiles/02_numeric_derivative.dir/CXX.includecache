@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/02_numeric_derivative.h
+
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/02_numeric_derivative.cpp
+iostream
+-
+ceres/ceres.h
+-
+02_numeric_derivative.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/02_numeric_derivative.h
+

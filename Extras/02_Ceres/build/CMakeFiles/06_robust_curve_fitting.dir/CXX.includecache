@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/curve_data.h
+
+../include/curve_fitting_residual.h
+
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/06_robust_curve_fitting.cpp
+ceres/ceres.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/ceres/ceres.h
+glog/logging.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/glog/logging.h
+curve_fitting_residual.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/curve_fitting_residual.h
+curve_data.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/examples/curve_data.h
+
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/src/curve_data.cpp
+curve_data.h
+/home/zhangshu/GitProjects/slambook2_CTC/Extras/02_Ceres/src/curve_data.h
+
