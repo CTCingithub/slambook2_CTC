@@ -14,10 +14,15 @@ include_directories(
     "/usr/include/eigen3"
     ${PROJECT_SOURCE_DIR}/include
 )
+find_package(Eigen3 REQUIRED PATHS)
 
 # Build shared library
 
 # Build executable files
 add_executable(01_hello_world examples/01_hello_world.cpp)
 target_link_libraries(01_hello_world
+)
+
+add_executable(02_use_struct examples/02_use_struct.cpp)
+target_link_libraries(02_use_struct
 )

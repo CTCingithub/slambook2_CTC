@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/02_use_struct.dir/examples/02_use_struct.cpp.o -o /home/ctc/GitProjects/slambook2_CTC/Extras/03_queue/bin/02_use_struct

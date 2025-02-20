@@ -129,6 +129,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_hello_world.dir/build.make CMakeFiles/01_hello_world.dir/build
 .PHONY : 01_hello_world/fast
 
+#=============================================================================
+# Target rules for targets named 02_use_struct
+
+# Build rule for target.
+02_use_struct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 02_use_struct
+.PHONY : 02_use_struct
+
+# fast build rule for target.
+02_use_struct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_use_struct.dir/build.make CMakeFiles/02_use_struct.dir/build
+.PHONY : 02_use_struct/fast
+
 examples/01_hello_world.o: examples/01_hello_world.cpp.o
 .PHONY : examples/01_hello_world.o
 
@@ -153,6 +166,30 @@ examples/01_hello_world.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01_hello_world.dir/build.make CMakeFiles/01_hello_world.dir/examples/01_hello_world.cpp.s
 .PHONY : examples/01_hello_world.cpp.s
 
+examples/02_use_struct.o: examples/02_use_struct.cpp.o
+.PHONY : examples/02_use_struct.o
+
+# target to build an object file
+examples/02_use_struct.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_use_struct.dir/build.make CMakeFiles/02_use_struct.dir/examples/02_use_struct.cpp.o
+.PHONY : examples/02_use_struct.cpp.o
+
+examples/02_use_struct.i: examples/02_use_struct.cpp.i
+.PHONY : examples/02_use_struct.i
+
+# target to preprocess a source file
+examples/02_use_struct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_use_struct.dir/build.make CMakeFiles/02_use_struct.dir/examples/02_use_struct.cpp.i
+.PHONY : examples/02_use_struct.cpp.i
+
+examples/02_use_struct.s: examples/02_use_struct.cpp.s
+.PHONY : examples/02_use_struct.s
+
+# target to generate assembly for a file
+examples/02_use_struct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/02_use_struct.dir/build.make CMakeFiles/02_use_struct.dir/examples/02_use_struct.cpp.s
+.PHONY : examples/02_use_struct.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... 01_hello_world"
+	@echo "... 02_use_struct"
 	@echo "... examples/01_hello_world.o"
 	@echo "... examples/01_hello_world.i"
 	@echo "... examples/01_hello_world.s"
+	@echo "... examples/02_use_struct.o"
+	@echo "... examples/02_use_struct.i"
+	@echo "... examples/02_use_struct.s"
 .PHONY : help
 
 

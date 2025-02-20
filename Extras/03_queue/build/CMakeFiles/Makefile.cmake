@@ -107,6 +107,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake"
   "/usr/local/share/cmake-3.29/Modules/Platform/Linux.cmake"
   "/usr/local/share/cmake-3.29/Modules/Platform/UnixPaths.cmake"
+  "/usr/local/share/eigen3/cmake/Eigen3Config.cmake"
+  "/usr/local/share/eigen3/cmake/Eigen3ConfigVersion.cmake"
+  "/usr/local/share/eigen3/cmake/Eigen3Targets.cmake"
   )
 
 # The corresponding makefile is:
@@ -128,4 +131,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/01_hello_world.dir/DependInfo.cmake"
+  "CMakeFiles/02_use_struct.dir/DependInfo.cmake"
   )
